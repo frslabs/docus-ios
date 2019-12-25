@@ -99,85 +99,29 @@ class  ViewController: UIViewController, DocScannerControllerDelegate {
 ## Docus Result
 
 ```swift
+let images = getImageFromDocumentDirectory(docScanImgs: results.savedImages)
+resultImages.append(images)
 
-     let resultJson = convertToJson(jsonObject: results.octusResult)
-     let resultDict = convertToDictionary(text: resultJson)
-   
-     let result = resultDict!["OctusData"] as! [String:String]   
-     let code = result["code"]
-     
-     let code = result["code"]
-     let docType = result["documentType"]
-     let name1 = result["name1"] ?? ""
-     let name2 = result["name2"] ?? ""
-     let idNumber = result["number"] ?? ""
-     let dob = result["dob"] ?? ""
-     let yob = result["yob"] ?? ""
-     let country = result ["country"] ?? ""
-     let expiry = result["expiry"] ?? ""
-     let address = result["address"] ?? ""
-     let gender = result["gender"] ?? ""
-     let issuedBy = result["issuedBy"] ?? ""
-     let ifsc = result["ifsc"] ?? ""
-     
-     let imagePathFace = result["facePath"] ?? "" 
-     let imagePathFront = result["frontImagePath"] ?? ""
-     let imagePathBack = result["backImagePath"] ?? ""
-     
-     /// Retrieve image from document directory
-            
-     let image = getImageFromDocumentDirectory(imagePath: imagePathFace, fileName: "fileName")
-     
-     `FileNames` - 
-         Front Image - "doc_front.png"
-         Back Image - "doc_back.png"
-         Face Image - "doc_face.png"
-     
-      if imagePath.count > 0 {
-           let resultImage = getImageFromDocumentDirectory(imagePath: imagePath, fileName: "fileName")
-           imageView.image = resultImage
+func getImageFromDocumentDirectory(docScanImgs : [String]) -> [UIImage] {
+    let fileManager = FileManager.default
+    var docusImages = [UIImage]()
+    for eachImg in docScanImgs {
+        let fileArray = eachImg.components(separatedBy: "/")
+        let finalFileName = fileArray.last
+        let path = (NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as NSString).appendingPathComponent("docus_images")
+        let url = NSURL(string: path)
+        let imagePath = (url!).appendingPathComponent(finalFileName!)
+        let urlString: String = imagePath!.absoluteString
+        if fileManager.fileExists(atPath: urlString) {
+            let image = UIImage(contentsOfFile: urlString)
+            docusImages.append(image!)
+        } else {
+             print("No Image")
         }
-
-    /// Supported Mathods
-    
-    func convertToJson(jsonObject:NSMutableDictionary) -> String{
-        let jsonData: NSData
-        do {
-            jsonData = try JSONSerialization.data(withJSONObject: jsonObject, options:.prettyPrinted) as NSData
-            let jsonString = (String(data: jsonData as Data, encoding: String.Encoding.utf8))!.replacingOccurrences(of: "\\", with: "")
-            return jsonString
-        } catch _ {
-            print ("JSON Failure")
-        }
-        return ""
     }
-    
-    func convertToDictionary(text: String) -> [String: Any]? {
-        if let data = text.data(using: .utf8) {
-            do {
-                return try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any]
-            } catch {
-                print(error.localizedDescription)
-            }
-        }
-        return nil
-    }
-    
-    func getImageFromDocumentDirectory(imagePath : String, fileName: String) -> UIImage {
-        let nsDocumentDirectory = FileManager.SearchPathDirectory.documentDirectory
-        let nsUserDomainMask    = FileManager.SearchPathDomainMask.userDomainMask
-        let paths               = NSSearchPathForDirectoriesInDomains(nsDocumentDirectory, nsUserDomainMask, true)
-        if let dirPath = paths.first{
-            let frontimageURL = URL(fileURLWithPath: dirPath).appendingPathComponent(fileName)
-            let frontimage    = UIImage(contentsOfFile: frontimageURL.path)
-            return frontimage ?? UIImage()
-        }
-        else {
-            return UIImage()
-        }
-        
-    }
-
+    return docusImages
+}
+     
 ```
 
 ## Octus Error Codes
