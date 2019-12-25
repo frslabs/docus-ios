@@ -1,12 +1,12 @@
 
 # Docus SDK
-> Docus SDK uses advanced deep learning technologies for accurate and fast Document/ID scanning and OCR
+> Docus SDK uses advanced deep learning technologies for accurate and fast Document scanning.
 >
 >
 
 ![version](https://img.shields.io/badge/pod-v1.0.0-red)
 
-Docus SDK uses advanced deep learning technologies for accurate and fast ID scanning and OCR. Businesses can integrate the Docus SDK into native iOS Apps which comes with pre-built screens and configurations. The SDK returns the scanned images, extracted data and error codes. And as a safety measure, the SDK does not store any of the personal data or ID images that are scanned.
+Docus SDK uses advanced deep learning technologies for accurate and fast Document scanning. Businesses can integrate the Docus SDK into native iOS Apps which comes with pre-built screens and configurations. The SDK returns the scanned images, extracted data and error codes. And as a safety measure, the SDK does not store any of the personal data or ID images that are scanned.
 
 # Table Of Content
 - [Features](#Features)
@@ -71,14 +71,10 @@ import Octus
 
 ```swift
 import Docus
-
-let scanner = IdScannerController(delegate: self)
-    scanner.modalPresentationStyle = .fullScreen
+    let scanner = DocScannerController(delegate: self)
     scanner.licenceKey = "Your Licence Key"
-    scanner.documentType = Document.PAN.rawValue
-    scanner.documentCountry = Country.in.rawValue
-    scanner.documentSubType = ScanMode.OCR.rawValue
-    present(scanner, animated: false)
+    present(scanner, animated: true)
+    
 ```
 #### Handling the result
 
