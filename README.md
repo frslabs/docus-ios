@@ -1,12 +1,12 @@
 
 # Docus SDK
-> Octus SDK uses advanced deep learning technologies for accurate and fast Document/ID scanning and OCR
+> Docus SDK uses advanced deep learning technologies for accurate and fast Document/ID scanning and OCR
 >
 >
 
 ![version](https://img.shields.io/badge/pod-v1.0.0-red)
 
-Octus SDK uses advanced deep learning technologies for accurate and fast ID scanning and OCR. Businesses can integrate the Octus SDK into native iOS Apps which comes with pre-built screens and configurations. The SDK returns the scanned images, extracted data and error codes. And as a safety measure, the SDK does not store any of the personal data or ID images that are scanned.
+Docus SDK uses advanced deep learning technologies for accurate and fast ID scanning and OCR. Businesses can integrate the Docus SDK into native iOS Apps which comes with pre-built screens and configurations. The SDK returns the scanned images, extracted data and error codes. And as a safety measure, the SDK does not store any of the personal data or ID images that are scanned.
 
 # Table Of Content
 - [Features](#Features)
@@ -54,8 +54,7 @@ You can use [CocoaPods](http://cocoapods.org/) to install `Octus` by adding it t
 ```ruby
 platform :ios, '13.0'
 use_frameworks!
-pod 'Octus'
-pod 'TesseractOCRiOS', '4.0.0'
+pod 'Docus'
 ```
 
 To get the full benefits import `Octus` wherever you import UIKit
@@ -71,7 +70,7 @@ import Octus
 ## Usage example
 
 ```swift
-import Octus
+import Docus
 
 let scanner = IdScannerController(delegate: self)
     scanner.modalPresentationStyle = .fullScreen
