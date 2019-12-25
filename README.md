@@ -2,7 +2,7 @@
 ![version](https://img.shields.io/badge/version-v0.1.4-blue)
 
 
-The Vidus SDK comes with a set of screens and configurations to record live video of customers. Each of the recording options in the SDK are called nodes which can be configured by developers.
+The Docus SDK comes with a set of screens and configurations to record live video of customers. Each of the recording options in the SDK are called nodes which can be configured by developers.
 
 You can find the release history at [Changelog](CHANGELOG.md)
 
