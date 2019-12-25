@@ -22,10 +22,9 @@ Docus SDK uses advanced deep learning technologies for accurate and fast Documen
 
 ## Features
 
-- [x] Auto scanning domestic and internationals ID cards
-- [x] OCR is highly accurate 
-- [x] Scan duration is very less 
-- [x] MRTD document supported
+- [x] Auto Capture of Documents
+- [x] Document Capture is highly accurate 
+- [x] Capture duration is very less 
 
 ## Prerequisite
 
