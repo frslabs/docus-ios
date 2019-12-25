@@ -139,53 +139,6 @@ Error codes and their meaning are tabulated below
   
   Accepts the Octus licence key as a `String`
   
-- `scanner.documentCountry = Country.countryISOcode.rawValue` ***(Required)***
-  
-  Sets the country associated with the Document.
-  
-  For the complete list of supported countries refer ``ISO_3166-1_alpha-2`` format code
- 
-- `scanner.documentType = Document.value.rawValue` ***(Required)***
-  
-  Sets the Document which has to be scanned. Possible values are, 
-  
-  | Value          | Effect                 |
-  | -------------- | ---------------------- |
-  | Document.PAN   | Pan Card               |
-  | Document.ADR   | Aadhaar Card           |
-  | Document.VID   | Voter ID               |
-  | Document.NID   | National ID            |
-  | Document.PPT   | Passport               |
-  | Document.VSA   | Visa                   |
-  | Document.DRV   | Driving Licence        |
-  | Document.CQL   | Cheque Leaf            |
-  | Document.GST   | GST Form               |
-  | Document.IMG_A | Image Capture Aadhaar  |
-  | Document.IMG_H | Plain Image capture    |
-  
-- `scanner.documentSubType = ScanMode.OCR.rawValue` ***(Required)***  
-  
-  Sets the Document Sub Type . Majority of the documents support only `ScanMode.OCR.rawValue` as a sub type. 
-  
-  *Documents where both `ScanMode.OCR.rawValue` and `ScanMode.BARCODE.rawValue` apply are ,*
-  
-  - `Document.ADR`
-   
-  *Documents where only `ScanMode.MRTD.rawValue` apply are ,*
- 
-  - `Document.PPT`
-  - `Document.VSA`
-  
-  
-  Possible values for Sub Type are,
-  
-  | Value            | Effect                         |
-  | ---------------- | ------------------------------ |
-  | ScanMode.OCR.rawValue | Scans the document in OCR mode |
-  | ScanMode.BARCODE.rawValue | Scans the document in QR mode  |
-  | ScanMode.MRTD.rawValue | Scans the document in MRZ mode  |
-  | ScanMode.CROP.rawValue | Scans the document in Crop mode  |
-  
 ## Help
 
 For any queries/feedback , contact us at `support@frslabs.com` 
