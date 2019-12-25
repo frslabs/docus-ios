@@ -122,7 +122,12 @@ func getImageFromDocumentDirectory(docScanImgs : [String]) -> [UIImage] {
 }
      
 ```
+## Docus Parameters
 
+- `scanner.licenceKey = "LICENCE KEY"`   ***(Required)***
+  
+  Accepts the Docus licence key as a `String`
+  
 ## Docus Error Codes
 
 Error codes and their meaning are tabulated below
@@ -132,11 +137,6 @@ Error codes and their meaning are tabulated below
 | 805  | Docus SDK License got expired             |
 | 806  | Docus SDK License was invalid             |
 
-## Docus Parameters
-
-- `scanner.licenceKey = "LICENCE KEY"`   ***(Required)***
-  
-  Accepts the Docus licence key as a `String`
   
 ## Help
 
