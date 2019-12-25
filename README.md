@@ -71,30 +71,32 @@ import Octus
 
 ```swift
 import Docus
-    let scanner = DocScannerController(delegate: self)
-    scanner.licenceKey = "Your Licence Key"
-    present(scanner, animated: true)
+
+let scanner = DocScannerController(delegate: self)
+scanner.licenceKey = "Your Licence Key"
+present(scanner, animated: true)
     
 ```
 #### Handling the result
 
 ```swift
-class  ViewController: UIViewController, IdScannerControllerDelegate {
-    func idScannerController(_ scanner: IdScannerController, didFinishScanningWithResults results: IdScannerResults) {
-        print("ScanResult: ", results.octusResult)
+class  ViewController: UIViewController, DocScannerControllerDelegate {
+    func docScanner(_ scanner: DocScannerController, didFinishScanningWithResults results: docScannerResults) {
+        print("DocumentsResult: ", results.savedImages)
         scanner.dismiss(animated:  true, completion:  nil)
     }
-    func  idScannerControllerDidCancel(_ scanner: IdScannerController) {
+    func docScanner(_ scanner: DocScannerController, didCancel cancel: String) {
         scanner.dismiss(animated:  true, completion:  nil)
     }
-    func idScannerController(_ scanner: IdScannerController, didFailWithError error:      Int{
+    
+    func docScanner(_ scanner: DocScannerController, didFailWithError error: String) {
         print("ErrorCode: ", error)
         scanner.dismiss(animated: true, completion: nil)
     }
 }
 ``` 
 
-## Octus Result
+## Docus Result
 
 ```swift
 
