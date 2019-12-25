@@ -130,14 +130,14 @@ Error codes and their meaning are tabulated below
 
 | Code          | Message                 |
 | -------------- | ---------------------- |
-| 805  | Octus SDK License got expired             |
-| 806  | Octus SDK License was invalid             |
+| 805  | Docus SDK License got expired             |
+| 806  | Docus SDK License was invalid             |
 
-## Octus Parameters
+## Docus Parameters
 
 - `scanner.licenceKey = "LICENCE KEY"`   ***(Required)***
   
-  Accepts the Octus licence key as a `String`
+  Accepts the Docus licence key as a `String`
   
 ## Help
 
