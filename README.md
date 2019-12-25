@@ -61,7 +61,7 @@ To get the full benefits import `Octus` wherever you import UIKit
 
 ``` swift
 import UIKit
-import Octus
+import Docus
 ```
 #### Supported Tessdata installation
 1. Download and drop ```model.trainneddata``` in tessdata folder of your project.
@@ -124,24 +124,14 @@ func getImageFromDocumentDirectory(docScanImgs : [String]) -> [UIImage] {
      
 ```
 
-## Octus Error Codes
+## Docus Error Codes
 
 Error codes and their meaning are tabulated below
 
 | Code          | Message                 |
 | -------------- | ---------------------- |
-| 801  | Scan timed out                |
-| 802  | Invalid ID parameters passed|
-| 803  | Camera permission denied    |
-| 804  | Scan was interrupted            |
 | 805  | Octus SDK License got expired             |
 | 806  | Octus SDK License was invalid             |
-| 807  | Invalid camera resolution   |
-| 811  | QR not detected             |
-| 812  | QR parsing failed           |
-| 108  | Internet Unavailable                 |
-| 401  | Api Limit Exceeded            |
-| 429  | Too many request            |
 
 ## Octus Parameters
 
