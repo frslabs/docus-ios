@@ -6,7 +6,7 @@
 
 ![version](https://img.shields.io/badge/pod-v1.0.0-red)
 
-Docus SDK uses advanced deep learning technologies for accurate and fast Document scanning. Businesses can integrate the Docus SDK into native iOS Apps which comes with pre-built screens and configurations. The SDK returns the scanned images, extracted data and error codes. And as a safety measure, the SDK does not store any of the personal data or ID images that are scanned.
+Docus allows you to scan documents that doesn’t require OCR of the document. It can identify edges, crop document at its edges and collate them together as a single file that can then be stored in your server. 
 
 # Table Of Content
 - [Features](#Features)
