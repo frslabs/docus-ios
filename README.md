@@ -22,10 +22,10 @@ Docus allows you to scan documents that doesn’t require OCR of the document. I
 
 ## Features
 
-- [x] Auto Capture of Documents
+- [x] Auto capture of documents
 - [x] Scan any kind of document in seconds
 - [x] Scan multi-page documents
-- [x] Auto-crop scanned Documents
+- [x] Auto-crop scanned documents
 
 ## Prerequisite
 
