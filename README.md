@@ -25,8 +25,7 @@ Docus allows you to scan documents that doesn’t require OCR of the document. I
 - [x] Auto Capture of Documents
 - [x] Scan any kind of document in seconds
 - [x] Scan multi-page documents
-- [x] 
-- [x] 
+- [x] Auto-crop scanned Documents
 
 ## Prerequisite
 
