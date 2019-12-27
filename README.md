@@ -52,7 +52,7 @@ In Info.plist file add following code to allow your application to access iPhone
 You can use [CocoaPods](http://cocoapods.org/) to install `Docus` by adding it to your `Podfile`:
 
 ```ruby
-platform :ios, '13.0'
+platform :ios, '10.0'
 use_frameworks!
 pod 'Docus'
 ```
