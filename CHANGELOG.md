@@ -1,3 +1,5 @@
-v1.0.0 - 31-12-2019
+# Changelog
 
-Initial Release
+## **v1.0.0** - *09-10-2019*
+### Initial Release
+ 
