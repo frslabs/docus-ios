@@ -4,7 +4,7 @@
 >
 >
 
-![version](https://img.shields.io/badge/pod-v1.0.0-red)
+![version](https://img.shields.io/badge/version-v1.0.0-blue)
 
 Docus allows you to scan documents that doesn’t require OCR of the document. It can identify edges, crop document at its edges and collate them together as a single file that can then be stored in your server. 
 
