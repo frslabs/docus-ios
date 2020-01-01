@@ -34,7 +34,7 @@ Depending on the license - offline or online - you have opted for, the ping func
 
 Once you have the license, follow the below instructions for a successful integration of Docus SDK onto your iOS Application
 
-## Requirements
+## Minimum Requirements
 
 - iOS 10.0+
 - Xcode 11.2
