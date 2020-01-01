@@ -9,10 +9,10 @@ You can find the release history at [Changelog](CHANGELOG.md)
 
 # Table Of Content
 - [Features](#Features)
-- [Prerequisite](#prerequisite)
-- [Requirements](#requirements)
+- [Prerequisite](#Prerequisites)
+- [Requirements](#Minimum Requirements)
 - [Permission](#Permission)
-- [Installation](#installation)
+- [Installation](#Installation)
 - [Usage example](#Usage-example)
 - [Docus Result](#Docus-Result)
 - [Docus Parameters](#Docus-parameters)
