@@ -32,7 +32,7 @@ You will need a valid license and Netrc credentials to use the Docus SDK, which 
 
 Depending on the license - offline or online - you have opted for, the ping functionality to billing servers will be disabled or enabled. For instance, if you have opted for the offline SDK model, then there will be no server ping needed to our billing server to bill you. However, if you have chosen a transaction based pricing, then after each transaction, a ping request will be made to our billing server. This cannot be overrided by the App. A point to note is that if the ping transaction fails for any reason, the whole transaction will be void without any results from the SDK.
 
-Once you have the license, follow the below instructions for a successful integration of Docus SDK onto your iOS Application
+Once you have the license, follow the below instructions for a successful integration of Docus SDK onto your iOS Application.
 
 ## Minimum Requirements
 
@@ -52,8 +52,9 @@ You can use [CocoaPods](http://cocoapods.org/) to install `Docus` by adding it t
 
 ```ruby
 platform :ios, '10.0'
+source 'https://gitlab.com/frslabs-public/ios/docus_ios.git'
 use_frameworks!
-pod 'Docus'
+pod 'Docus', '1.0.0'
 ```
 
 To get the full benefits import `Docus` wherever you import UIKit
