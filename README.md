@@ -21,10 +21,10 @@ You can find the release history at [Changelog](CHANGELOG.md)
 
 ## Features
 
-- [x] Auto capture of documents
-- [x] Scan any kind of document in seconds
-- [x] Scan multi-page documents
-- [x] Auto-crop scanned documents
+-  Auto capture of documents
+-  Scan any kind of document in seconds
+-  Scan multi-page documents
+-  Auto-crop scanned documents
 
 ## Prerequisites
 
