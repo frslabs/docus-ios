@@ -51,10 +51,16 @@ In Info.plist file add following code to allow your application to access iPhone
 You can use [CocoaPods](http://cocoapods.org/) to install `Docus` by adding it to your `Podfile`:
 
 ```ruby
-platform :ios, '10.0'
 source 'https://gitlab.com/frslabs-public/ios/docus_ios.git'
+platform :ios, '10.0'
 use_frameworks!
 pod 'Docus', '1.0.0'
+end
+```
+Then, run the following command:
+
+```bash
+$ pod install
 ```
 
 To get the full benefits import `Docus` wherever you import UIKit
