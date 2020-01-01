@@ -21,10 +21,10 @@ You can find the release history at [Changelog](CHANGELOG.md)
 
 ## Features
 
--  Auto capture of documents
--  Scan any kind of document in seconds
--  Scan multi-page documents
--  Auto-crop scanned documents
+-  Auto capture of documents - The SDK will detect document edges and automatically capture the document image.
+-  Auto-crop scanned documents - The SDK automatically crops the image once the edges are detected. The SDK also allows the user to manually crop if needed.
+-  Scan any document - The SDK will allow the user to scan any document placed within the bounding box of the scanner.
+-  Scan multi-page documents - The user can scan multiple pages and the SDK will automatically collate the images into a folder in application document directory.
 
 ## Prerequisites
 
