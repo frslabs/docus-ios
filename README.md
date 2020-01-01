@@ -134,8 +134,8 @@ Error codes and their meaning are tabulated below
 
 | Code          | Message                 |
 | -------------- | ---------------------- |
-| 805  | Docus SDK License got expired             |
-| 806  | Docus SDK License was invalid             |
+| 805  | Licence expired             |
+| 806  | Invalid licence             |
 
   
 ## Help
