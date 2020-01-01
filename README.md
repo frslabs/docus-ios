@@ -9,8 +9,8 @@ You can find the release history at [Changelog](CHANGELOG.md)
 
 # Table Of Content
 - [Features](#Features)
-- [Prerequisite](#Prerequisites)
-- [Requirements](#Minimum-Requirements)
+- [Prerequisites](#Prerequisites)
+- [Minimum Requirements](#Minimum-Requirements)
 - [Permission](#Permission)
 - [Installation](#Installation)
 - [Usage example](#Usage-example)
