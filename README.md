@@ -68,10 +68,7 @@ To get the full benefits import `Docus` wherever you import UIKit
 ``` swift
 import UIKit
 import Docus
-```
-#### Supported Tessdata installation
-1. Download and drop ```model.trainneddata``` in tessdata folder of your project.
-2. Congratulations! 
+``` 
 
 ## Usage example
 
