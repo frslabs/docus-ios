@@ -1,7 +1,7 @@
 
 # Docus SDK
 
-![version](https://img.shields.io/badge/version-v1.0.0-blue)
+![version](https://img.shields.io/badge/version-v1.1.0-blue)
 
 Docus allows you to scan documents that doesn’t require OCR of the document. It can identify edges, crop document at its edges and collate them together as a single file that can then be stored in your server. 
 
@@ -54,7 +54,7 @@ You can use [CocoaPods](http://cocoapods.org/) to install `Docus` by adding it t
 source 'https://gitlab.com/frslabs-public/ios/docus_ios.git'
 platform :ios, '10.0'
 use_frameworks!
-pod 'Docus', '1.0.0'
+pod 'Docus', '1.1.0'
 end
 ```
 Then, run the following command:
