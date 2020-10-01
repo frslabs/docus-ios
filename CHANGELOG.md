@@ -1,5 +1,13 @@
 # Changelog
 
+## **v1.1.0** - *10-1-2020*
+### What’s New
+- Bug fixes.
+- Auto scan speed increased.
+- Height to capture the document has been reduced.
+- Performance enhancement.
+
+
 ## **v1.0.0** - *31-12-2019*
 ### Initial Release
  
