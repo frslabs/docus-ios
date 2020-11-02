@@ -1,5 +1,8 @@
 # Changelog
 
+## **v1.2.0** - *28-10-2020*
+- Swift version update.
+
 ## **v1.1.0** - *10-1-2020*
 ### What’s New
 - Bug fixes.
