@@ -52,12 +52,13 @@ You can use [CocoaPods](http://cocoapods.org/) to install `Docus` by adding it t
 
 ```ruby
 source 'https://gitlab.com/frslabs-public/ios/docus_ios.git'
+source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '10.0'
+target '<Your Target Name>' do
 use_frameworks!
 pod 'Docus', '1.1.0'
 end
 ```
-
 ###### Save/Edit Netrc settings to install custom pod
 
 You will need a valid netrc credentials to install docus from maven, which can be obtained by contacting `support@frslabs.com`. 
