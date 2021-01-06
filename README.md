@@ -151,10 +151,14 @@ func getImageFromDocumentDirectory(docScanImgs : [String]) -> [UIImage] {
 
 Error codes and their meaning are tabulated below
 
-| Code          | Message                 |
-| -------------- | ---------------------- |
-| 805  | Licence expired             |
-| 806  | Invalid licence             |
+| CODE | DESCRIPTION                  |
+| ---- | ---------------------------- |
+| 803  | Camera permission denied    |
+| 804  | Docus interrupted            |
+| 805  | Docus SDK License has expired             |
+| 806  | Docus SDK License is invalid             |
+| 809  | Image saving failed        |
+
 
   
 ## Help
