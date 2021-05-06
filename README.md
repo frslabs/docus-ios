@@ -157,6 +157,7 @@ Error codes and their meaning are tabulated below
 | 804  | Docus interrupted            |
 | 805  | Docus SDK License has expired             |
 | 806  | Docus SDK License is invalid             |
+| 807  | Document Password is incorrect        |
 | 809  | Unable to upload the image        |
 
 
