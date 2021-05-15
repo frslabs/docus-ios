@@ -1,5 +1,9 @@
 # Changelog
 
+## **v1.2.1** - *14-05-2021*
+- User can addd PDF file from device.
+- Performance enhancement.
+
 ## **v1.2.0** - *28-10-2020*
 - Swift version update.
 
