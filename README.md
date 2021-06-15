@@ -92,6 +92,7 @@ import Docus
 
 let scanner = DocScannerController(delegate: self)
 scanner.licenceKey = "Your Licence Key"
+scanner.modalPresentationStyle = .fullScreen
 present(scanner, animated: true)
     
 ```
