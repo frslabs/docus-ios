@@ -36,8 +36,8 @@ Once you have the license, follow the below instructions for a successful integr
 
 ## Minimum Requirements
 
-- iOS 10.0+
-- Xcode 11.2
+- xcode 12.5
+- iOS 12.0+
 
 ## Permission
 
