@@ -155,6 +155,7 @@ Error codes and their meaning are tabulated below
 
 | CODE | DESCRIPTION                  |
 | ---- | ---------------------------- |
+| 801  | Invalid Page limit    |
 | 803  | Camera permission denied    |
 | 804  | Docus interrupted            |
 | 805  | Docus SDK License has expired             |
