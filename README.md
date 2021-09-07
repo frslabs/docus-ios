@@ -94,7 +94,7 @@ import Docus
 let scanner = DocScannerController(delegate: self)
 scanner.licenceKey = "Your Licence Key"
 scanner.modalPresentationStyle = .fullScreen
-scanner.noOfPages = 6   // maximum digits is 19 
+scanner.noOfPages = "no of pages needed"   // maximum digits is 19 
 present(scanner, animated: true)
     
 ```
@@ -149,6 +149,10 @@ func getImageFromDocumentDirectory(docScanImgs : [String]) -> [UIImage] {
 - `scanner.licenceKey = "LICENCE KEY"`   ***(Required)***
   
   Accepts the Docus licence key as a `String`
+  
+- `scanner.noOfPages = "no of pages needed"`   ***(Required)***
+  
+  Accepts number of pages upto 19 digits as a `Int`
   
 ## Docus Error Codes
 
