@@ -162,6 +162,10 @@ Error codes and their meaning are tabulated below
 | 806  | Docus SDK License is invalid             |
 | 807  | Document Password is incorrect        |
 | 809  | Unable to upload the image        |
+| 901  | No internet connection           |
+| 902  | Image upload failed             |
+| 903  | Transaction failed / Unable to ping  |
+
 
 
   
