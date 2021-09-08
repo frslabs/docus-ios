@@ -1,7 +1,7 @@
 
 # DOCUS iOS SDK
 
-![version](https://img.shields.io/badge/version-v1.2.3-blue)
+![version](https://img.shields.io/badge/version-v1.2.5-blue)
 
 Docus allows you to scan documents that doesn’t require OCR of the document. It can identify edges, crop document at its edges and collate them together as a single file that can then be stored in your server. 
 
@@ -54,10 +54,10 @@ You can use [CocoaPods](http://cocoapods.org/) to install `Docus` by adding it t
 ```ruby
 source 'https://gitlab.com/frslabs-public/ios/docus_ios.git'
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '10.0'
+platform :ios, '12.0'
 target '<Your Target Name>' do
 use_frameworks!
-pod 'Docus', '1.2.3'
+pod 'Docus', '1.2.5'
 end
 ```
 ###### Save/Edit Netrc settings to install custom pod
@@ -74,7 +74,7 @@ password <YOUR_PASSOWRD>
 3. In terminal enter below command to install the pod 
 
     ```bash
-    $ pod install  (or) $ pod update
+    $ pod install  (or) $ pod update  (or)  $ pod install --repo-update
     ```
 4. Connect with physical device to build and run Docus, It will not build/run in simulator due to camera dependency.
 
