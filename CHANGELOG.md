@@ -1,4 +1,8 @@
 # Changelog
+## **v1.2.5** - *08-09-2021*
+- Page limit parameter addition.
+- Swift version update. 
+
 ## **v1.2.3** - *15-06-2021*
 - Swift version update.
 ## **v1.2.1** - *14-05-2021*
