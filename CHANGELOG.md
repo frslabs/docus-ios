@@ -2,8 +2,8 @@
 
 ## **v1.2.6** - *12-10-2021*
 - UI changes.
-- Manual Capture option Added.
-- Color filter options in Preview page.
+- Manual capture option Added.
+- Color filter options in preview page.
 - Swift & Xcode version update. 
 
 ## **v1.2.5** - *08-09-2021*
