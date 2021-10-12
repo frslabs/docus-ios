@@ -1,7 +1,7 @@
 
 # DOCUS iOS SDK
 
-![version](https://img.shields.io/badge/version-v1.2.5-blue)
+![version](https://img.shields.io/badge/version-v1.2.6-blue)
 
 Docus allows you to scan documents that doesn’t require OCR of the document. It can identify edges, crop document at its edges and collate them together as a single file that can then be stored in your server. 
 
@@ -36,7 +36,7 @@ Once you have the license, follow the below instructions for a successful integr
 
 ## Minimum Requirements
 
-- Xcode 12.5
+- Xcode 13.0
 - iOS 12.0+
 - Swift 5.0
 
@@ -57,7 +57,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '12.0'
 target '<Your Target Name>' do
 use_frameworks!
-pod 'Docus', '1.2.5'
+pod 'Docus', '1.2.6'
 end
 ```
 ###### Save/Edit Netrc settings to install custom pod
