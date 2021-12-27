@@ -1,4 +1,6 @@
 # Changelog
+## **v1.2.8** - *27-12-2021*
+- Swift & Xcode version update. 
 
 ## **v1.2.6** - *12-10-2021*
 - UI changes.
