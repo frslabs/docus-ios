@@ -1,4 +1,7 @@
 # Changelog
+## **v1.3.1** - *22-04-2022*
+- Pdf upload option added.
+
 ## **v1.3.0** - *13-04-2022*
 - Swift & Xcode 13.3.1 version update. 
 
