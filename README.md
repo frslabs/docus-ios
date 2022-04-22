@@ -164,6 +164,7 @@ Error codes and their meaning are tabulated below
 | 803  | Camera permission denied    |
 | 804  | Docus interrupted            |
 | 805  | Docus SDK License has expired             |
+| 807 | Unable to unlock pdf document |
 | 806  | Docus SDK License is invalid             |
 | 901  | No internet connection           |
 | 902  | Image upload failed             |
