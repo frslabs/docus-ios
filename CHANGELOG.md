@@ -1,6 +1,6 @@
 # Changelog
 ## **v1.3.1** - *22-04-2022*
-- Pdf upload option added.
+- User can add PDF file from device.
 
 ## **v1.3.0** - *13-04-2022*
 - Swift & Xcode 13.3.1 version update. 
@@ -20,6 +20,7 @@
 
 ## **v1.2.3** - *15-06-2021*
 - Swift version update.
+
 ## **v1.2.1** - *14-05-2021*
 - User can addd PDF file from device.
 - Performance enhancement.
