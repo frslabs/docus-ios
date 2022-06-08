@@ -1,4 +1,8 @@
 # Changelog
+
+## **v1.3.2** - *08-06-2022*
+- Swift & Xcode 13.4.1 version update.
+
 ## **v1.3.1** - *22-04-2022*
 - User can add PDF file from device.
 
