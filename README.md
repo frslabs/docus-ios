@@ -7,6 +7,8 @@ Docus allows you to scan documents that doesn’t require OCR of the document. I
 
 You can find the release history at [Changelog](CHANGELOG.md)
 
+‼ ATTENTION ‼ → BREAKING CHANGE introduced at Docus SDK `v1.3.6`. We have introduced a new license format. If you are using versions prior to `v1.3.6` and intend to update to `v1.3.6` or above please contact `support@frslabs.com` for an updated license.
+
 # Table Of Content
 - [Features](#Features)
 - [Prerequisites](#Prerequisites)
