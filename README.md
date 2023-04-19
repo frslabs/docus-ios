@@ -1,7 +1,7 @@
 
 # DOCUS iOS SDK
 
-![version](https://img.shields.io/badge/version-v1.3.6-blue)
+![version](https://img.shields.io/badge/version-v1.3.9-blue)
 
 Docus allows you to scan documents that doesn’t require OCR of the document. It can identify edges, crop document at its edges and collate them together as a single file that can then be stored in your server. 
 
