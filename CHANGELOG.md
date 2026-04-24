@@ -1,6 +1,6 @@
 # Changelog
 ## **v1.5.1** - *24-04-2026*
-- Simulator build support.
+- Simulator support.
   
 ## **v1.5.0** - *20-04-2026*
 - Swift & Xcode 26.4.1 version with OS 26.4.1 update.
